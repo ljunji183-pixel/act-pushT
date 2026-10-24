@@ -36,14 +36,14 @@
 
 ## 效果演示
 
-续训后的 `best.pt`（epoch 96）在 `10 episodes / exec 8 / seed 1000` 下录制，下面是两局 rollout 的末帧——T 都已经压在目标区域上：
+续训后的 `best.pt`（epoch 96）在 `10 episodes / exec 8 / seed 1000` 下录制，下面的 GIF 自动循环展示两局完整 rollout：
 
-| rollout 末帧 · seed 1001 | rollout 末帧 · seed 1002 |
+| rollout 动图 · seed 1001 | rollout 动图 · seed 1002 |
 | :---: | :---: |
-| [<img src="docs/media/episode_001_seed_1001_poster.png" width="360" alt="seed 1001">](docs/media/episode_001_seed_1001.mp4) | [<img src="docs/media/episode_002_seed_1002_poster.png" width="360" alt="seed 1002">](docs/media/episode_002_seed_1002.mp4) |
-| [▶ 播放视频](docs/media/episode_001_seed_1001.mp4) | [▶ 播放视频](docs/media/episode_002_seed_1002.mp4) |
+| [<img src="docs/media/episode_001_seed_1001.gif" width="360" alt="seed 1001">](docs/media/episode_001_seed_1001.mp4) | [<img src="docs/media/episode_002_seed_1002.gif" width="360" alt="seed 1002">](docs/media/episode_002_seed_1002.mp4) |
+| [▶ 查看原始视频](docs/media/episode_001_seed_1001.mp4) | [▶ 查看原始视频](docs/media/episode_002_seed_1002.mp4) |
 
-> GitHub 的 README 不渲染 `<video>` 标签，所以这里用封面图 + 视频链接；点开链接可以在浏览器里直接播放。
+> 动图可直接在 GitHub README 中观看；点击动图或下方链接可打开原始 MP4 视频。
 
 ## 结果
 
@@ -189,7 +189,7 @@ scripts/
   plot_act_loss.py       # 基础版 2×2 损失曲线
 
 docs/media/
-  *.mp4, *_poster.png    # 演示 rollout 与封面
+  *.mp4, *.gif, *_poster.png  # 演示视频、循环动图与封面
   loss_curves_*.png      # 训练曲线
   loss_logs/*.csv        # 106 epoch 的原始日志（拼接即可重画主图）
   loss_logs/gates/*.csv  # 门控图对应的 epoch 1–35 日志
