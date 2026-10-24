@@ -1,0 +1,16 @@
+# 训练 / 评测依赖（Python 3.10+）
+# torch 请按自己的 CUDA 版本从 https://pytorch.org 选择对应安装命令
+torch
+torchvision
+
+# 数据与环境
+lerobot
+gym-pusht
+gymnasium
+huggingface_hub
+opencv-python
+
+# 训练循环与可视化
+numpy
+tqdm
+matplotlib

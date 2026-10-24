@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+data/
+runs_*/
+checkpoints/
+.cache*/
+*.pt
+*.db
+_cachtest/
+.vscode/

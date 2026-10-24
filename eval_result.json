@@ -1,0 +1,153 @@
+{
+  "checkpoint": "D:\\PythonProject\\act-pusht\\runs_sincos\\20261023_213023_from_e025\\last.pt",
+  "seed": 1000,
+  "exec_steps": 8,
+  "summary": {
+    "epoch": 35,
+    "success_rate": 0.2,
+    "mean_max_coverage": 0.7045900180353424,
+    "mean_final_coverage": 0.6149662508839346
+  },
+  "episodes": [
+    {
+      "seed": 1000,
+      "success": true,
+      "max_cov": 0.9564201786944883,
+      "final_cov": 0.9564201786944883,
+      "steps": 188
+    },
+    {
+      "seed": 1001,
+      "success": false,
+      "max_cov": 0.5591605518444099,
+      "final_cov": 0.24661850247442296,
+      "steps": 300
+    },
+    {
+      "seed": 1002,
+      "success": false,
+      "max_cov": 0.7189151275473988,
+      "final_cov": 0.7189151275473988,
+      "steps": 300
+    },
+    {
+      "seed": 1003,
+      "success": true,
+      "max_cov": 0.956744732052455,
+      "final_cov": 0.956744732052455,
+      "steps": 86
+    },
+    {
+      "seed": 1004,
+      "success": false,
+      "max_cov": 0.17066114380517633,
+      "final_cov": 0.0,
+      "steps": 300
+    },
+    {
+      "seed": 1005,
+      "success": false,
+      "max_cov": 0.439914415986539,
+      "final_cov": 0.439914415986539,
+      "steps": 300
+    },
+    {
+      "seed": 1006,
+      "success": false,
+      "max_cov": 0.6673587765854747,
+      "final_cov": 0.5971790772176083,
+      "steps": 300
+    },
+    {
+      "seed": 1007,
+      "success": false,
+      "max_cov": 0.9427688657220458,
+      "final_cov": 0.8390138296621314,
+      "steps": 300
+    },
+    {
+      "seed": 1008,
+      "success": false,
+      "max_cov": 0.0031880603403161368,
+      "final_cov": 0.0,
+      "steps": 300
+    },
+    {
+      "seed": 1009,
+      "success": false,
+      "max_cov": 0.9074896615221884,
+      "final_cov": 0.9074896615221884,
+      "steps": 300
+    },
+    {
+      "seed": 1010,
+      "success": false,
+      "max_cov": 0.2980042567585928,
+      "final_cov": 0.0,
+      "steps": 300
+    },
+    {
+      "seed": 1011,
+      "success": false,
+      "max_cov": 0.9159419375990007,
+      "final_cov": 0.8630424294804394,
+      "steps": 300
+    },
+    {
+      "seed": 1012,
+      "success": false,
+      "max_cov": 0.703416420008562,
+      "final_cov": 0.0,
+      "steps": 300
+    },
+    {
+      "seed": 1013,
+      "success": false,
+      "max_cov": 0.7303870410338286,
+      "final_cov": 0.7303870410338286,
+      "steps": 300
+    },
+    {
+      "seed": 1014,
+      "success": false,
+      "max_cov": 0.9308206109728099,
+      "final_cov": 0.8529914417736283,
+      "steps": 300
+    },
+    {
+      "seed": 1015,
+      "success": false,
+      "max_cov": 0.45566810247558726,
+      "final_cov": 0.45566810247558726,
+      "steps": 300
+    },
+    {
+      "seed": 1016,
+      "success": true,
+      "max_cov": 0.9506276345442264,
+      "final_cov": 0.9506276345442264,
+      "steps": 173
+    },
+    {
+      "seed": 1017,
+      "success": true,
+      "max_cov": 0.9664191531123569,
+      "final_cov": 0.9664191531123569,
+      "steps": 187
+    },
+    {
+      "seed": 1018,
+      "success": false,
+      "max_cov": 0.9003625156131573,
+      "final_cov": 0.9003625156131573,
+      "steps": 300
+    },
+    {
+      "seed": 1019,
+      "success": false,
+      "max_cov": 0.9175311744882354,
+      "final_cov": 0.9175311744882354,
+      "steps": 300
+    }
+  ]
+}
